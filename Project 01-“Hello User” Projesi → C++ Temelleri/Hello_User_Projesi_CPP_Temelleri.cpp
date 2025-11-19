@@ -4,6 +4,6 @@ int main() {                               // Ana fonksiyon, programın başlang
     string name;                           // İsim saklamak için string türünde değişken
     cout << "Enter your name:";            // Kullanıcıdan isim girmesini isteyen mesaj
     cin >> name;                           // Kullanıcının girdiği ismi name değişkenine atama
-    cout << "Hello " << name << endl;      // Kullanıcıya selam veren mesaj
+    cout << "Hello " << name << endl;      // Kullanıcıya selam veren mesaj ------------------ "endl" Satır sonu
     return 0;                              // Programın başarılı bir şekilde sona erdiğini belirtir
 }                                          
